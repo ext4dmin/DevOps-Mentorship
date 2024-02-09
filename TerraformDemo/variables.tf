@@ -6,7 +6,7 @@ variable "location" {
   type    = string
   default = "westeurope"
 }
-variable "admin_pass" {
-  type      = string
-  sensitive = true
+variable "dir_name" {
+  type    = string
+  default = "web-dir"
 }
