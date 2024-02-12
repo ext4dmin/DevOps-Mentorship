@@ -1,0 +1,9 @@
+webhosts:
+  hosts:
+
+    host01:
+      ansible_host: '{{ ip_address }}' # Put remote IP address 
+
+  vars:
+    ansible_user: adminuser
+    ip_address: '{{ lookup("env", "IP_ADDR") }}'

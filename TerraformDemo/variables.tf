@@ -8,5 +8,5 @@ variable "location" {
 }
 variable "dir_name" {
   type    = string
-  default = "web-dir"
+  default = "html"
 }
