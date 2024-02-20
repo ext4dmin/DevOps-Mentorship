@@ -4,6 +4,20 @@ services:
   web:
     build:
       context: .
-    command: "/usr/sbin/service nginx start"
+    deploy:
+      replicas: 2
+    networks:
+      - dockerdemo
+  lb:
+    image: nginx:latest
+    volumes:
+      - ./lb/nginx.conf:/etc/nginx/nginx.conf:ro
+    depends_on:
+      - web
     ports:
-      - '80:80'
+    - "8080:8080"
+    networks:
+      - dockerdemo
+
+networks:
+  dockerdemo:
