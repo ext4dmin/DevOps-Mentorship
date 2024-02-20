@@ -1,0 +1,9 @@
+version: '3.8'
+
+services:
+  web:
+    build:
+      context: .
+    command: "/usr/sbin/service nginx start"
+    ports:
+      - '80:80'
