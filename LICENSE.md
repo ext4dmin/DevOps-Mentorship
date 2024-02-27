@@ -1,10 +1,12 @@
-CC BY-SA 4.0 \
-All materials © 2024 by ext4dmin is licensed under Attribution-ShareAlike 4.0 International. \
+## CC BY-SA 4.0 
+All materials © 2024 by [EXTADMIN](https://github.com/ext4dmin) is licensed under Attribution-ShareAlike 4.0 International. \
 To view a copy of this license, visit http://creativecommons.org/licenses/by-sa/4.0/
-\
-\
-\
-Attribution-ShareAlike 4.0 International
+
+If you are owner of reproudction materials and have some questions, please, contact [EXTADMIN](https://github.com/ext4dmin) directly for their resolving.
+
+
+
+### Attribution-ShareAlike 4.0 International
 
 =======================================================================
 
